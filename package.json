@@ -1,0 +1,32 @@
+{
+  "name": "eth-address",
+  "version": "1.0.0",
+  "description": "A simple package to work with Ethereum addresses.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn run test && yarn run build",
+    "test": "jest"
+  },
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reecejohnson/eth-address"
+  },
+  "author": "reecejohnson <reece.robert.johnson@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@ethersproject/address": "^5.4.0",
+    "@types/jest": "^27.0.1"
+  }
+}
