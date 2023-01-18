@@ -2,7 +2,7 @@
 ![downloads](https://img.shields.io/npm/dw/eth-address)
 # eth-address
 
-A lightweight library to format ethereum addresses.
+A lightweight library to format Ethereum addresses. Easily truncate any eth address to a desired length.
 
 ## Installation
 
