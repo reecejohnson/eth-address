@@ -1,4 +1,5 @@
 [![npm version](https://badge.fury.io/js/eth-address.svg)](https://badge.fury.io/js/eth-address)
+![downloads](https://img.shields.io/npm/dw/eth-address)
 # eth-address
 
 A lightweight library to format ethereum addresses.
